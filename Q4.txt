@@ -1,0 +1,13 @@
+—¿Cómo elimino una rama creada en git? Crea una nueva rama llamada feature/QA, para posteriormente borrarla.
+R. Para crear una nueva rama llamada feature/QA, ejecutaría el siguiente comando:
+    git checkout -b feature/QA
+
+Luego, una vez que he terminado con esa rama y quiero eliminarla, usaría:
+    git branch -d feature/QA
+
+—¿Por qué debería de usar la ramificación en proyectos?
+R. La ramificación es útil en proyectos por varias razones. Por ejemplo, permite trabajar en diferentes características o problemas de forma independiente, 
+facilita la colaboración entre miembros del equipo al trabajar en paralelo sin conflictos constantes, y ofrece una forma de experimentar con nuevas características de manera segura sin afectar la rama principal del proyecto
+—Usted recibió un ticket [SEM-005] y una vez terminado el trabajo usted decide crear una rama para un posterior PR. ¿Qué nombre pondría a la rama al momento de crearla?
+R. Para nombrar la rama creada para el ticket SEM-005, usaría un nombre descriptivo que indique claramente el propósito de la rama. Algo como "SEM-005-implementacion o feature/SEM-005" serían opciones adecuadas, es importante 
+que el nombre sea claro y descriptivo para que otros miembros del equipo puedan entender fácilmente el trabajo que se está realizando en esa rama.
